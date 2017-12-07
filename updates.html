@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/jssor.slider-22.2.10.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+<title>Updates</title>
+</head>
+
+<body>
+<div class="top-bar">
+<div class="container">
+	<div class="top-link">
+		<ul>
+    		<li><a href="#">FORM</a></li>
+    		<li>|</li>
+    		<li><a href="#">TERMS</a></li>
+    		<li>|</li>
+    		<li><a href="#">CONTACT</a></li>
+    	</ul>
+	</div>
+    <div class="social-icon">
+    	<a href="#" class="f"><i class="fa fa-facebook fa-lg" title="Facebook"></i></a>
+        <a href="#" class="d"><i class="fa fa-dribbble fa-lg" title="Dribble"></i></a>
+        <a href="#" class="v"><i class="fa fa-vimeo fa-lg" title="Vimeo"></i></a>
+        <a href="#" class="g"><i class="fa fa-google fa-lg" title="Google"></i></a>
+        <a href="#" class="t"><i class="fa fa-twitter fa-lg" title="Twitter"></i></a>
+    </div>
+</div>
+</div>
+<header id="header" class="clearfix">
+<div class="container">
+<div class="logo">
+<img src="assets/img/logo.png" height="70" width="400" alt="Logo Image">
+</div>
+<ul class="nav">
+	<li><a href="index.html">HOME</a>
+    <li><a href="conversion.html">CONVERSION</a></li>
+    <li class="current"><a href="updates.html">UPDATES</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+</header>
+<div class="bg-clr clearfix">
+<div class="feature-container clearfix">
+<div class="top-date">June 2017</div><!--top=date-->
+
+<div class="clearfix">
+
+<div class="feature-left space-1">
+
+<div class="feature-item clearfix">
+<div class="arrow-1"></div><!--arrow-1-->
+<div class="feature-inner">
+<img src="assets/img/detail-1.jpg" alt="Feature Image 1">
+<h2>Luquid Volume Converter</h2>
+<h6>at http://www.thecalculatorsite.com</h6>
+</div><!--feature-inner-->
+<div class="feature-bdr"></div><!--feature-bdr-->
+<div class="feature-inner">
+<p>Use this liquid volume converter to convert instantly between barrels, cubic feet, gallons, liters, pints, tablespoons and other metric and imperial liquid volume units. Default rounding is set to a maximum of 14 decimal places. A full list of unit conversions is available here. If you like this website, please tell your friends about it.</p>
+</div><!--feature-inner-->
+<div class="comment-left">0 Comments</div><!--comment-right-->
+<div class="comment-right"><span>09</span> <strong>June<br>2017</strong></div><!--comment-right-->
+</div><!--feature-item-->
+</div><!--feature-left-->
+
+<div class="feature-right space-2">
+
+<div class="feature-item clearfix">
+<div class="arrow-2"></div><!--arrow-2-->
+<div class="feature-inner">
+<img src="assets/img/detail-2.jpg" alt="Feature Image 2">
+<h2>Percentage Calculators</h2>
+<h6>at http://www.thecalculatorsite.com</h6>
+</div><!--feature-inner-->
+<div class="feature-bdr"></div><!--feature-bdr-->
+<div class="feature-inner">
+<p>Use these percentage calculator tools to work out your percentage figures based upon your given inputs. Common uses include calculating the percentage for a given statistic, looking to see how much your assets have increased by or wanting to work out the tip for a restaurant bill. Formulae and explanation are featured further down the page.</p>
+</div><!--feature-inner-->
+<div class="comment-left">0 Comments</div><!--comment-right-->
+<div class="comment-right"><span>26</span> <strong>June<br>2017</strong></div><!--comment-right-->
+</div><!--feature-item-->
+</div><!--feature-right-->
+
+
+</div><!--clearfix-->
+
+<div class="top-date space-3">August 2017</div><!--top=date-->
+
+<div class="clearfix">
+
+<div class="feature-left space-1">
+<div class="feature-item clearfix">
+<div class="arrow-1"></div><!--arrow-1-->
+<div class="feature-inner">
+<img src="assets/img/detail-3.jpg" alt="Feature Image 6">
+<h2>Birthday Calculator</h2>
+<h6>at http://www.thecalculatorsite.com</h6>
+</div><!--feature-inner-->
+<div class="feature-bdr"></div><!--feature-bdr-->
+<div class="feature-inner">
+<p>Enter your date of birth into the birthday calculator below and discover what day you were born on and how long you've been alive in days, months and years. In addition, find out your star sign, your chinese zodiac sign, your birthstone, the number of days until your next birthday and the celebrities that you share your birthday with.</p>
+</div><!--feature-inner-->
+<div class="comment-left">0 Comments</div><!--comment-right-->
+<div class="comment-right"><span>09</span> <strong>April<br>2012</strong></div><!--comment-right-->
+</div><!--feature-item-->
+</div><!--feature-left-->
+
+</div><!--clearfix-->
+
+<div class="top-date space-3 space-4">December 2017</div><!--top=date-->
+
+</div><!--feature-container-->
+<div class="pagination feature space-5">
+<ul>
+	<li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+	<li><a href="#" class="active">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+	<li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+</ul>
+</div><!--pagination-->
+
+</div><!--bg-clr-->
+<footer id="footer" class="clearfix">
+<div class="container clearfix">
+<div class="foot-text clearfix">
+<div class="one-third">
+<h4 class="foot-bold">CONTACT INFORMATION</h4>
+<div class="foor-map">
+<p><strong>Address:</strong> SD 1, Block A, Near Metric Board Office, North Nazimabad, Karachi.</p>
+<p><strong>Phone: </strong>(+92) (21) 36630102, (21) 36630103, <br>(21) 36633472</p>
+<p><strong>Email:</strong> info-nn@aptech-education.com.pk</p>
+</div>
+<h4 class="foot-bold">STAY CONNECTED</h4>
+<div class="social">
+	<ul>
+    	<li><a href="#" class="foot-facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="foot-dribbble"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="#" class="foot-pinterest"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#" class="foot-vimeo"><i class="fa fa-vimeo"></i></a></li>
+        <li><a href="#" class="foot-google"><i class="fa fa-google"></i></a></li>
+        <li><a href="#" class="foot-twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" class="foot-youtube"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+</div>
+</div>
+<div class="one-third">
+<h4 class="foot-bold">LATEST TWEET</h4>
+<div class="tweet">
+<i class="fa fa-twitter"></i>
+<h5>@metric</h5>
+<p>Check out this great <a>#conversion</a> item 'Metric - Premium Multipurpose Conversion Chart'<a>
+http://pa.com/1BJTH345gH</a></p>
+</div>
+</div>
+<div class="one-third last">
+<h4 class="foot-bold">FLIKER PHOTOSTREAM</h4>
+<div class="index-img">
+	<img src="assets/img/index-1.jpg" alt="Image-1">
+    <img src="assets/img/index-2.jpg" alt="Image-2">
+    <img src="assets/img/index-3.jpg" alt="Image-3">
+    <img src="assets/img/index-4.jpg" alt="Image-4">
+    <img src="assets/img/index-5.jpg" alt="Image-5">
+    <img src="assets/img/index-6.jpg" alt="Image-6">
+    <img src="assets/img/index-7.jpg" alt="Image-7">
+    <img src="assets/img/index-8.jpg" alt="Image-8">
+    <img src="assets/img/index-9.jpg" alt="Image-9">
+    <img src="assets/img/index-10.jpg" alt="Image-10">
+    <img src="assets/img/index-11.jpg" alt="Image-11">
+    <img src="assets/img/index-12.jpg" alt="Image-12">
+</div>
+</div>
+</div>
+</div>
+<div class="foot-bdr">&nbsp;</div>
+<div class="container">
+<div class="foot-last-text">
+<p>@2017. All Rights Reserved. Powered By <a>Bootstrap</a> <span>Aptech Computer Education</span></p>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>

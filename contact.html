@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/jssor.slider-22.2.10.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+<title>Contact</title>
+</head>
+
+<body>
+<div class="top-bar">
+<div class="container">
+	<div class="top-link">
+		<ul>
+    		<li><a href="#">FORM</a></li>
+    		<li>|</li>
+    		<li><a href="#">TERMS</a></li>
+    		<li>|</li>
+    		<li><a href="#">CONTACT</a></li>
+    	</ul>
+	</div>
+    <div class="social-icon">
+    	<a href="#" class="f"><i class="fa fa-facebook fa-lg" title="Facebook"></i></a>
+        <a href="#" class="d"><i class="fa fa-dribbble fa-lg" title="Dribble"></i></a>
+        <a href="#" class="v"><i class="fa fa-vimeo fa-lg" title="Vimeo"></i></a>
+        <a href="#" class="g"><i class="fa fa-google fa-lg" title="Google"></i></a>
+        <a href="#" class="t"><i class="fa fa-twitter fa-lg" title="Twitter"></i></a>
+    </div>
+</div>
+</div>
+<header id="header" class="clearfix">
+<div class="container">
+<div class="logo">
+<img src="assets/img/logo.png" height="70" width="400" alt="Logo Image">
+</div>
+<ul class="nav">
+	<li><a href="index.html">HOME</a>
+    <li><a href="conversion.html">CONVERSION</a></li>
+    <li><a href="updates.html">UPDATES</a></li>
+    <li class="current"><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+</header>
+<section class="clearfix">
+<div class="container clearfix">
+<div class="contact-text">
+<h1>CONTACT US</h1>
+</div><!--contact text-->
+<div class="main-contact">
+	<div class="contact-left">
+    	<div class="contact-info">
+        	<h2>Contact Information</h2>
+            <h6>Address:</h6>
+            <p>SD 1, Block A, Near Metric Board Office, North Nazimabad, Karachi.</p>
+            
+            <h6>Phone:</h6>
+            <p>(+92) (21) 36630102, (21) 36630103, (21) 36633472</p>
+            
+            <h6>Email:</h6>
+            <p>info-nn@aptech-education.com.pk</p>
+        </div><!---.contact-info--->
+        <div class="blog-border"></div><!--blog border-->
+        <h6 class="con-head">Our Vision</h6>
+        <div class="contact-para">        
+        <p>Our vision and mission is to empower PAKISTAN through technology. I.T. when rightly employed leads to productivity improvements and prosperity at individual, organizational, societal, National and Global level.
+
+APTECH has embarked on a business excellence initiative and is investing in developing competencies to deliver superior quality with total customer orientation.
+
+Our Customer Policy is a simple one, Anticipate and exceed customer expectations through effective and timely delivery of industry relevant products and services.
+</p>
+        </div><!--contact para-->
+    </div><!---.contact-left--->
+    <div class="contact-right">
+    	<div class="form-inner">
+        	<h6>What's Your Name?</h6>
+            <form>
+            <input type="text" placeholder="Enter Your Name" required>
+            
+        	<h6>What's Your Email?</h6>
+            <input type="text" placeholder="Enter Your Email" required>
+            
+        	<h6>Email Subject?</h6>
+            <input type="text" placeholder="Enter Subject" required>
+        </div><!---.form-inner--->
+        <div class="contact-bdr">&nbsp;</div>
+        <div class="form-inner">
+        	<h6>Message to us</h6>
+            <textarea placeholder="Your Message Here..."></textarea>
+            <input type="submit" class="btn" value="Send Message"/>
+            </div>
+        </div><!--fORM iNNER-->
+    </div><!---.contact-right--->
+</div><!---.main-contact--->
+</div><!--container-->
+	<div class="online-map">
+<div style="width: 100%"><iframe width="100%" height="600" src="http://www.citymaps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;coord=24.927380,67.033134&amp;q=+(Aptech%20Computer%20Education)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">Mesurer distance avec Google Maps</a></iframe></div>
+    </div>
+</section>
+<footer id="footer" class="clearfix">
+<div class="container clearfix">
+<div class="foot-text clearfix">
+<div class="one-third">
+<h4 class="foot-bold">CONTACT INFORMATION</h4>
+<div class="foor-map">
+<p><strong>Address:</strong> SD 1, Block A, Near Metric Board Office, North Nazimabad, Karachi.</p>
+<p><strong>Phone: </strong>(+92) (21) 36630102, (21) 36630103, <br>(21) 36633472</p>
+<p><strong>Email:</strong> info-nn@aptech-education.com.pk</p>
+</div>
+<h4 class="foot-bold">STAY CONNECTED</h4>
+<div class="social">
+	<ul>
+    	<li><a href="#" class="foot-facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="foot-dribbble"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="#" class="foot-pinterest"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#" class="foot-vimeo"><i class="fa fa-vimeo"></i></a></li>
+        <li><a href="#" class="foot-google"><i class="fa fa-google"></i></a></li>
+        <li><a href="#" class="foot-twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" class="foot-youtube"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+</div>
+</div>
+<div class="one-third">
+<h4 class="foot-bold">LATEST TWEET</h4>
+<div class="tweet">
+<i class="fa fa-twitter"></i>
+<h5>@metric</h5>
+<p>Check out this great <a>#conversion</a> item 'Metric - Premium Multipurpose Conversion Chart'<a>
+http://pa.com/1BJTH345gH</a></p>
+</div>
+</div>
+<div class="one-third last">
+<h4 class="foot-bold">FLIKER PHOTOSTREAM</h4>
+<div class="index-img">
+	<img src="assets/img/contact-1.jpg" alt="Image-1">
+    <img src="assets/img/contact-2.jpg" alt="Image-2">
+    <img src="assets/img/contact-3.jpg" alt="Image-3">
+    <img src="assets/img/contact-4.jpg" alt="Image-4">
+    <img src="assets/img/contact-5.jpg" alt="Image-5">
+    <img src="assets/img/contact-6.jpg" alt="Image-6">
+    <img src="assets/img/contact-7.jpg" alt="Image-7">
+    <img src="assets/img/contact-8.jpg" alt="Image-8">
+    <img src="assets/img/contact-9.jpg" alt="Image-9">
+    <img src="assets/img/contact-10.jpg" alt="Image-10">
+    <img src="assets/img/contact-11.jpg" alt="Image-11">
+    <img src="assets/img/contact-12.jpg" alt="Image-12">
+</div>
+</div>
+</div>
+</div>
+<div class="foot-bdr">&nbsp;</div>
+<div class="container">
+<div class="foot-last-text">
+<p>@2017. All Rights Reserved. Powered By <a>Bootstrap</a> <span>Aptech Computer Education</span></p>
+</div>
+</div>
+</footer>
+</body>
+</html>
